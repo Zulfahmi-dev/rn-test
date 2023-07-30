@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import React from 'react';
 import {} from 'react-native-gesture-handler';
-import {sizes} from '../../constants/themes';
+import {sizes} from '../constants/themes';
 import CustomLinearGradient from './linear-gradient';
 import Typography from './typography';
 

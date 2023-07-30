@@ -2,7 +2,7 @@
 import React, {Component} from 'react';
 import {Text, StyleSheet, TextProps} from 'react-native';
 
-import * as themes from '../../constants/themes';
+import * as themes from '../constants/themes';
 
 
 const {colors} = themes;

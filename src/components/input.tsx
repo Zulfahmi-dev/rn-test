@@ -4,12 +4,10 @@ import {
   TextInput,
   StyleSheet,
   TextInputProps,
-  StyleSheetProperties,
   TextStyle,
 } from 'react-native';
 import Text from './typography';
-import {colors, sizes} from '../../constants/themes';
-import { StyleProp } from 'react-native';
+import {colors, sizes} from '../constants/themes';
 
 type InputProps = {
   icon?: React.ReactNode;

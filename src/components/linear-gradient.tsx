@@ -3,7 +3,7 @@ import React from 'react';
 import LinearGradient, {
   LinearGradientProps,
 } from 'react-native-linear-gradient';
-import * as themes from '../../constants/themes';
+import * as themes from '../constants/themes';
 
 export type CustomLinearGradientProps = {
     colors?: string[]

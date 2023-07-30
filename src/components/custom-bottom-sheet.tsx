@@ -1,4 +1,4 @@
-import {View, Text, StyleSheet, Switch} from 'react-native';
+import {View, Text, StyleSheet, ViewProps} from 'react-native';
 import React, {
   PropsWithChildren,
   Ref,
@@ -6,16 +6,15 @@ import React, {
   useMemo,
   useState,
 } from 'react';
+
 import BottomSheet, {
   BottomSheetModal,
   BottomSheetModalProvider,
   BottomSheetProps,
 } from '@gorhom/bottom-sheet';
-import {colors, sizes} from '../../constants/themes';
-import LinearGradient from 'react-native-linear-gradient';
-import {GradientText, Typography} from '../../components';
-import CustomLinearGradient from '../../components/linear-gradient';
-import {ViewProps} from 'react-native';
+
+import {colors, sizes} from '../constants/themes';
+import {GradientText, Typography} from '../components';
 
 export type CustomBottomSheetProps = {
   bottomSheetRef: Ref<BottomSheetModal>;
