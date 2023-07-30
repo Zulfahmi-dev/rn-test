@@ -67,7 +67,7 @@ const TabFriends: React.FC = props => {
   const renderContent = (section: any) => {
     return (
       <ScrollView
-        style={{height: screenHeight * 0.48}}
+        style={{height: screenHeight * 0.46}}
         showsVerticalScrollIndicator={false}>
         <View style={{padding: sizes.padding, paddingTop: sizes.sm}}>
           {section.friends?.map((item: any, i: number) => (
@@ -107,6 +107,7 @@ const styles = StyleSheet.create({
     borderBottomColor: colors.darkGray,
     paddingTop: sizes.base,
     paddingBottom: sizes.base,
+    marginBottom: sizes.base
   },
   searchBar: {
     backgroundColor: colors.darkGray,
